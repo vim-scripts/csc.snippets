@@ -1,0 +1,30 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3469
+
+Essbase script snippet file should be up-to-date with all features of Essbase 9.  
+
+you can insert into your code using a trigger word followed by a <tab>.
+
+For instance, in a csc file, if you type "FIX<tab>" in insert mode, it will expand a typical for FIX: 
+
+FIX (fixMbrs)
+        commands;
+ENDFIX
+
+To go to the next item in the loop, simply <tab> over to it; if there is repeated code, such as the "i" variable in this example, you can simply start typing once it's highlighted and all the matches specified in the snippet will be updated. To go in reverse, use <shift-tab>.
+
+If anything is missing, broken, not working well on your setup, or an inconvenience for you, please let me know, all feedback is welcome: <yyq123 at gmail.com>.
+
+Enhancements:
+-------------
+* case sensitive
+
+Screenshots:
+-------------
+* For statem with single srgument
+  http://www.flickr.com/photos/yyq123/5454484247/
+
+* For statem with multipule argumets
+  http://www.flickr.com/photos/yyq123/5454484239/
+
+* For statem list
+  http://www.flickr.com/photos/yyq123/5454484241/
